@@ -1,0 +1,12 @@
+{
+  "displayName": "Zone",
+  "type": {
+    "enumType": {
+      "allowedValues": [
+        { "displayName": "RAW" },
+        { "displayName": "CLEANED" },
+        { "displayName": "DELTA" }
+      ]
+    }
+  }
+}

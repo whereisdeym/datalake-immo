@@ -1,0 +1,43 @@
+{
+  "displayName": "Immo Lake Metadata",
+  "description": "Metadata for tables across RAW, CLEANED, and DELTA zones",
+  "metadataTemplate": {
+    "schema": {
+      "fields": [
+        {
+          "name": "source",
+          "type": { "primitiveType": "STRING" },
+          "description": "Source system of the dataset"
+        },
+        {
+          "name": "owner",
+          "type": { "primitiveType": "STRING" },
+          "description": "Owner or responsible team"
+        },
+        {
+          "name": "description",
+          "type": { "primitiveType": "STRING" },
+          "description": "Description of the dataset"
+        },
+        {
+          "name": "last_update",
+          "type": { "primitiveType": "TIMESTAMP" },
+          "description": "Last update timestamp"
+        },
+        {
+          "name": "zone",
+          "type": {
+            "enumType": {
+              "allowedValues": [
+                { "displayName": "RAW" },
+                { "displayName": "CLEANED" },
+                { "displayName": "DELTA" }
+              ]
+            }
+          },
+          "description": "Data processing zone classification"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+display_name: "Immo Lake Metadata"
+fields:
+  source:
+    display_name: "Source"
+    type: STRING
+  owner:
+    display_name: "Owner"
+    type: STRING
+  zone:
+    display_name: "Zone du Data Lake"
+    type: ENUM
+    allowed_values:
+      - RAW
+      - CLEANED
+      - DELTA
+  description:
+    display_name: "Description"
+    type: STRING
+  last_update:
+    display_name: "Dernière mise à jour"
+    type: TIMESTAMP
