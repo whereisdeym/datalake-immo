@@ -106,7 +106,7 @@ Un notebook Jupyter permet d’explorer les données Delta :
 ---
 
 ## 🧑‍💻 Auteur
-👤 **Deymar** — Étudiant en Master 1 Data Engineering à Webtech INSTITUTE  
+👤 **Deymar**  
 🎯 Passionné par le Big Data, les architectures Cloud et la DataOps  
 📫 [LinkedIn](#) | [GitHub](#)
 
